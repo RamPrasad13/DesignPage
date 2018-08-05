@@ -1,0 +1,22 @@
+body {
+	background: #f5f5f5;
+	color: #000;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 50%;
+}
+.col-2 {
+	flex: 20%;
+}
+.col-6 {
+	flex: 60%;
+}

@@ -1,0 +1,125 @@
+.img1 {
+   background-image: url("img_1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   @media only screen and (max-width: 768px) {
+   	height: 143px;
+   }
+}
+.img2 {
+   background-image: url("img_2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   @media only screen and (max-width: 768px) {
+   	height: 143px;
+   }
+}
+.img3 {
+   background-image: url("img_3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   @media only screen and (max-width: 768px) {
+   	height: 143px;
+   }
+}
+.pos-rel {
+	position: relative;
+}
+.pos-abs {
+	position: absolute;
+}
+.img1-content {
+	right: 15%;
+    bottom: 350px;
+	@media only screen and (max-width: 768px) {
+	    right: 1%;
+	    bottom: 5px;
+	    div {
+	    	background: black;
+		    opacity: 0.6;
+		    color: white;
+	    }
+	}
+}
+.img2-content {
+    bottom: 0;
+    left: 35%;
+    @media only screen and (max-width: 768px) {
+	    position: static;
+	    font-size: 12px;
+    }
+}
+.burg-img {
+	width: 100%;
+}
+.img3-content {
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+}
+.text-center {
+	text-align: center;
+}
+video {
+	height: auto;
+	width: 100%;
+}
+header {
+	background: white;
+	padding: 1%;
+}
+.text-right {
+	text-align: right;
+}
+.main-select {
+	margin-bottom: 20px;
+	@media only screen and (max-width: 768px) {
+		margin: 8px;
+	}
+	.menu {
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+		span {
+			margin-right: 10px;
+		}
+	}
+}
+.user-profile {
+	margin-top: 18px;
+    font-size: 25px;
+    @media only screen and (max-width: 768px) {
+    	font-size: 15px;
+    }
+}
+.sub-select {
+	span {
+		margin-right: 10px;
+	}
+}
+
+.menu-desktop {
+	display: block;
+	@media only screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+.menu-mobile {
+	display: inline-block;
+	background: #f5f5f5;
+	@media only screen and (min-width: 767px) {
+		display: none;
+	}
+}
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
