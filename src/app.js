@@ -1,4 +1,5 @@
 import './app.scss';
+import {init} from './design';
 
 let style=document.createElement('link');
 style.href='https://fonts.googleapis.com/css?family=Roboto';
@@ -13,6 +14,4 @@ metaTag.name = "viewport";
 metaTag.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0";
 document.getElementsByTagName('head')[0].appendChild(metaTag);
 
-import("./design").then(design => {
-design.init();
-});
+init();
